@@ -1,0 +1,11 @@
+# ninja log v6
+1	84	1765366990098709937	Snake_autogen/timestamp	e567f6fbd7dff1b6
+1	84	1765366990098709937	Snake_autogen/mocs_compilation.cpp	e567f6fbd7dff1b6
+1	84	1765366990098709937	/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/timestamp	e567f6fbd7dff1b6
+1	84	1765366990098709937	/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/mocs_compilation.cpp	e567f6fbd7dff1b6
+84	138	1765366990106909855	CMakeFiles/Snake.dir/Snake_autogen/mocs_compilation.cpp.o	9ede31ec2bead777
+84	150	1765366990107213109	CMakeFiles/Snake.dir/Board.cpp.o	666ae17fec1953a9
+85	383	1765366990107446361	CMakeFiles/Snake.dir/GraSnake.cpp.o	72ea0d3cde83ae8d
+85	409	1765366990107330902	CMakeFiles/Snake.dir/Snake.cpp.o	5edb5669474d3b64
+84	670	1765366990107082566	CMakeFiles/Snake.dir/main.cpp.o	f3f91389ca66f582
+670	790	1765366990692772778	Snake	78bc764153d6b963
