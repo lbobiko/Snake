@@ -74,3 +74,9 @@
 35	408	1765819443935074616	CMakeFiles/Snake.dir/GraSnake.cpp.o	1f7c33fb84c37c37
 35	436	1765819443934903866	CMakeFiles/Snake.dir/main.cpp.o	a97fc058058d7f4f
 436	540	1765819444335585388	Snake	703572b0147ffebc
+6	33	1765819984049797791	Snake_autogen/timestamp	e567f6fbd7dff1b6
+6	33	1765819984049797791	Snake_autogen/mocs_compilation.cpp	e567f6fbd7dff1b6
+6	33	1765819984049797791	/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/timestamp	e567f6fbd7dff1b6
+6	33	1765819984049797791	/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/mocs_compilation.cpp	e567f6fbd7dff1b6
+33	341	1765819984077435203	CMakeFiles/Snake.dir/main.cpp.o	a97fc058058d7f4f
+341	390	1765819984385049519	Snake	703572b0147ffebc

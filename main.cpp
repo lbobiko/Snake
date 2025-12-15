@@ -44,42 +44,72 @@ void printBoard(const GraSnake& game) {
     }
 }
 
+enum class LoopAction {
+    Continue,
+    Restart,
+    Quit
+};
+
+static LoopAction handleCommand(GraSnake& game, const std::string& cmd) {
+    if (cmd == "q" || cmd == "Q") {
+        return LoopAction::Quit;
+    }
+
+    if (cmd == "r" || cmd == "R") {
+        return LoopAction::Restart;
+    }
+
+    if (cmd == "p" || cmd == "P") {
+        if (game.isPaused()) game.setStateRunning();
+        else game.setStatePaused();
+        return LoopAction::Continue;
+    }
+
+    // Sterowanie (WASD)
+    if (!game.isPaused() && !game.isInGameOver()) {
+        if (cmd == "w" || cmd == "W") game.changeDirection(Direction::Up);
+        else if (cmd == "s" || cmd == "S") game.changeDirection(Direction::Down);
+        else if (cmd == "a" || cmd == "A") game.changeDirection(Direction::Left);
+        else if (cmd == "d" || cmd == "D") game.changeDirection(Direction::Right);
+    }
+
+    return LoopAction::Continue;
+}
+
+static void printStatus(const GraSnake& game) {
+    if (game.isPaused()) {
+        std::cout << "== PAUZA ==\n";
+    }
+    if (game.isInGameOver()) {
+        std::cout << "GAME OVER! (r = restart, q = wyjscie)\n";
+    }
+}
+
 int main() {
     std::srand(static_cast<unsigned>(std::time(nullptr)));
 
     GraSnake game(20, 10);
 
-    for (int i = 0; i < 1000; ++i) {
+    for (int tick = 0; tick < 1000000; ++tick) {
         game.tick();
-        std::cout << "Tick " << i << "\n";
+
+        std::cout << "Tick " << tick << "\n";
         printBoard(game);
+        printStatus(game);
 
-        if (game.isPaused()) {
-            std::cout << "== PAUZA ==\n";
-        }
-        if (game.isInGameOver()) {
-            std::cout << "GAME OVER! (r = restart, q = wyjscie)\n";
-        }
-
-        std::cout << "[ENTER]=dalej, p=pauza/wznow, r=restart, q=koniec > ";
+        std::cout << "[ENTER]=dalej, WASD=sterowanie, p=pauza, r=restart, q=koniec > ";
         std::string cmd;
         std::getline(std::cin, cmd);
 
-        if (cmd == "w" || cmd == "W") game.changeDirection(Direction::Up);
-        if (cmd == "s" || cmd == "S") game.changeDirection(Direction::Down);
-        if (cmd == "a" || cmd == "A") game.changeDirection(Direction::Left);
-        if (cmd == "d" || cmd == "D") game.changeDirection(Direction::Right);
+        LoopAction action = handleCommand(game, cmd);
 
-        if (cmd == "q") break;
-
-        if (cmd == "r" || cmd == "R") {
-            game.newGame();
-            continue; // ważne
+        if (action == LoopAction::Quit) {
+            break;
         }
-
-        if (cmd == "p" || cmd == "P") {
-            if (game.isPaused()) game.setStateRunning();
-            else game.setStatePaused();
+        if (action == LoopAction::Restart) {
+            game.newGame();
+            std::cout << "------------------------\n";
+            continue;
         }
 
         std::cout << "------------------------\n";
