@@ -218,15 +218,39 @@
 			null
 		],
 		[
+			"/Users/lukebobinski/qtrepos/Snake/GameOverState.h",
+			"MU",
+			"EWIEGA46WW/moc_GameOverState.cpp",
+			null
+		],
+		[
 			"/Users/lukebobinski/qtrepos/Snake/GraSnake.h",
 			"MU",
 			"EWIEGA46WW/moc_GraSnake.cpp",
 			null
 		],
 		[
+			"/Users/lukebobinski/qtrepos/Snake/IGameState.h",
+			"MU",
+			"EWIEGA46WW/moc_IGameState.cpp",
+			null
+		],
+		[
+			"/Users/lukebobinski/qtrepos/Snake/PausedState.h",
+			"MU",
+			"EWIEGA46WW/moc_PausedState.cpp",
+			null
+		],
+		[
 			"/Users/lukebobinski/qtrepos/Snake/Point.h",
 			"MU",
 			"EWIEGA46WW/moc_Point.cpp",
+			null
+		],
+		[
+			"/Users/lukebobinski/qtrepos/Snake/RunningState.h",
+			"MU",
+			"EWIEGA46WW/moc_RunningState.cpp",
 			null
 		],
 		[
@@ -253,9 +277,9 @@
 		"/Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework",
 		"/Users/lukebobinski/Qt/6.9.3/macos/mkspecs/macx-clang",
 		"/Users/lukebobinski/Qt/6.9.3/macos/include",
-		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include/c++/v1",
 		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include",
-		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/usr/include",
 		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
 	],
 	"MOC_MACRO_NAMES" : 
@@ -292,7 +316,10 @@
 	"SOURCES" : 
 	[
 		[ "/Users/lukebobinski/qtrepos/Snake/Board.cpp", "MU", null ],
+		[ "/Users/lukebobinski/qtrepos/Snake/GameOverState.cpp", "MU", null ],
 		[ "/Users/lukebobinski/qtrepos/Snake/GraSnake.cpp", "MU", null ],
+		[ "/Users/lukebobinski/qtrepos/Snake/PausedState.cpp", "MU", null ],
+		[ "/Users/lukebobinski/qtrepos/Snake/RunningState.cpp", "MU", null ],
 		[ "/Users/lukebobinski/qtrepos/Snake/Snake.cpp", "MU", null ],
 		[ "/Users/lukebobinski/qtrepos/Snake/main.cpp", "MU", null ]
 	],

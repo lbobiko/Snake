@@ -20,6 +20,10 @@ add_executable(Snake
   Board.cpp
   Snake.h Snake.cpp
   GraSnake.h GraSnake.cpp
+  IGameState.h
+  RunningState.h RunningState.cpp
+  GameOverState.h GameOverState.cpp
+  PausedState.h PausedState.cpp
 )
 target_link_libraries(Snake PRIVATE Qt${QT_VERSION_MAJOR}::Core)
 

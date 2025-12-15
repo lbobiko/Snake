@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_Snake: phony || Snake_autogen Snake_auto
 build CMakeFiles/Snake.dir/Snake_autogen/mocs_compilation.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Snake
   DEFINES = -DQT_CORE_LIB
   DEP_FILE = CMakeFiles/Snake.dir/Snake_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -fcolor-diagnostics
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mmacosx-version-min=26.1 -fcolor-diagnostics
   INCLUDES = -I/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/include -isystem /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Headers -iframework /Users/lukebobinski/Qt/6.9.3/macos/lib -isystem /Users/lukebobinski/Qt/6.9.3/macos/mkspecs/macx-clang -isystem /Users/lukebobinski/Qt/6.9.3/macos/include
   OBJECT_DIR = CMakeFiles/Snake.dir
   OBJECT_FILE_DIR = CMakeFiles/Snake.dir/Snake_autogen
@@ -60,7 +60,7 @@ build CMakeFiles/Snake.dir/Snake_autogen/mocs_compilation.cpp.o: CXX_COMPILER__S
 build CMakeFiles/Snake.dir/main.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /Users/lukebobinski/qtrepos/Snake/main.cpp || cmake_object_order_depends_target_Snake
   DEFINES = -DQT_CORE_LIB
   DEP_FILE = CMakeFiles/Snake.dir/main.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -fcolor-diagnostics
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mmacosx-version-min=26.1 -fcolor-diagnostics
   INCLUDES = -I/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/include -isystem /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Headers -iframework /Users/lukebobinski/Qt/6.9.3/macos/lib -isystem /Users/lukebobinski/Qt/6.9.3/macos/mkspecs/macx-clang -isystem /Users/lukebobinski/Qt/6.9.3/macos/include
   OBJECT_DIR = CMakeFiles/Snake.dir
   OBJECT_FILE_DIR = CMakeFiles/Snake.dir
@@ -68,7 +68,7 @@ build CMakeFiles/Snake.dir/main.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /User
 build CMakeFiles/Snake.dir/Board.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /Users/lukebobinski/qtrepos/Snake/Board.cpp || cmake_object_order_depends_target_Snake
   DEFINES = -DQT_CORE_LIB
   DEP_FILE = CMakeFiles/Snake.dir/Board.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -fcolor-diagnostics
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mmacosx-version-min=26.1 -fcolor-diagnostics
   INCLUDES = -I/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/include -isystem /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Headers -iframework /Users/lukebobinski/Qt/6.9.3/macos/lib -isystem /Users/lukebobinski/Qt/6.9.3/macos/mkspecs/macx-clang -isystem /Users/lukebobinski/Qt/6.9.3/macos/include
   OBJECT_DIR = CMakeFiles/Snake.dir
   OBJECT_FILE_DIR = CMakeFiles/Snake.dir
@@ -76,7 +76,7 @@ build CMakeFiles/Snake.dir/Board.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /Use
 build CMakeFiles/Snake.dir/Snake.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /Users/lukebobinski/qtrepos/Snake/Snake.cpp || cmake_object_order_depends_target_Snake
   DEFINES = -DQT_CORE_LIB
   DEP_FILE = CMakeFiles/Snake.dir/Snake.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -fcolor-diagnostics
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mmacosx-version-min=26.1 -fcolor-diagnostics
   INCLUDES = -I/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/include -isystem /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Headers -iframework /Users/lukebobinski/Qt/6.9.3/macos/lib -isystem /Users/lukebobinski/Qt/6.9.3/macos/mkspecs/macx-clang -isystem /Users/lukebobinski/Qt/6.9.3/macos/include
   OBJECT_DIR = CMakeFiles/Snake.dir
   OBJECT_FILE_DIR = CMakeFiles/Snake.dir
@@ -84,7 +84,31 @@ build CMakeFiles/Snake.dir/Snake.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /Use
 build CMakeFiles/Snake.dir/GraSnake.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /Users/lukebobinski/qtrepos/Snake/GraSnake.cpp || cmake_object_order_depends_target_Snake
   DEFINES = -DQT_CORE_LIB
   DEP_FILE = CMakeFiles/Snake.dir/GraSnake.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -fcolor-diagnostics
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mmacosx-version-min=26.1 -fcolor-diagnostics
+  INCLUDES = -I/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/include -isystem /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Headers -iframework /Users/lukebobinski/Qt/6.9.3/macos/lib -isystem /Users/lukebobinski/Qt/6.9.3/macos/mkspecs/macx-clang -isystem /Users/lukebobinski/Qt/6.9.3/macos/include
+  OBJECT_DIR = CMakeFiles/Snake.dir
+  OBJECT_FILE_DIR = CMakeFiles/Snake.dir
+
+build CMakeFiles/Snake.dir/RunningState.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /Users/lukebobinski/qtrepos/Snake/RunningState.cpp || cmake_object_order_depends_target_Snake
+  DEFINES = -DQT_CORE_LIB
+  DEP_FILE = CMakeFiles/Snake.dir/RunningState.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mmacosx-version-min=26.1 -fcolor-diagnostics
+  INCLUDES = -I/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/include -isystem /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Headers -iframework /Users/lukebobinski/Qt/6.9.3/macos/lib -isystem /Users/lukebobinski/Qt/6.9.3/macos/mkspecs/macx-clang -isystem /Users/lukebobinski/Qt/6.9.3/macos/include
+  OBJECT_DIR = CMakeFiles/Snake.dir
+  OBJECT_FILE_DIR = CMakeFiles/Snake.dir
+
+build CMakeFiles/Snake.dir/GameOverState.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /Users/lukebobinski/qtrepos/Snake/GameOverState.cpp || cmake_object_order_depends_target_Snake
+  DEFINES = -DQT_CORE_LIB
+  DEP_FILE = CMakeFiles/Snake.dir/GameOverState.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mmacosx-version-min=26.1 -fcolor-diagnostics
+  INCLUDES = -I/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/include -isystem /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Headers -iframework /Users/lukebobinski/Qt/6.9.3/macos/lib -isystem /Users/lukebobinski/Qt/6.9.3/macos/mkspecs/macx-clang -isystem /Users/lukebobinski/Qt/6.9.3/macos/include
+  OBJECT_DIR = CMakeFiles/Snake.dir
+  OBJECT_FILE_DIR = CMakeFiles/Snake.dir
+
+build CMakeFiles/Snake.dir/PausedState.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /Users/lukebobinski/qtrepos/Snake/PausedState.cpp || cmake_object_order_depends_target_Snake
+  DEFINES = -DQT_CORE_LIB
+  DEP_FILE = CMakeFiles/Snake.dir/PausedState.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mmacosx-version-min=26.1 -fcolor-diagnostics
   INCLUDES = -I/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/include -isystem /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Headers -iframework /Users/lukebobinski/Qt/6.9.3/macos/lib -isystem /Users/lukebobinski/Qt/6.9.3/macos/mkspecs/macx-clang -isystem /Users/lukebobinski/Qt/6.9.3/macos/include
   OBJECT_DIR = CMakeFiles/Snake.dir
   OBJECT_FILE_DIR = CMakeFiles/Snake.dir
@@ -97,8 +121,8 @@ build CMakeFiles/Snake.dir/GraSnake.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /
 #############################################
 # Link the executable Snake
 
-build Snake: CXX_EXECUTABLE_LINKER__Snake_Debug CMakeFiles/Snake.dir/Snake_autogen/mocs_compilation.cpp.o CMakeFiles/Snake.dir/main.cpp.o CMakeFiles/Snake.dir/Board.cpp.o CMakeFiles/Snake.dir/Snake.cpp.o CMakeFiles/Snake.dir/GraSnake.cpp.o | /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/QtCore || Snake_autogen Snake_autogen_timestamp_deps
-  FLAGS = -DQT_QML_DEBUG -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk
+build Snake: CXX_EXECUTABLE_LINKER__Snake_Debug CMakeFiles/Snake.dir/Snake_autogen/mocs_compilation.cpp.o CMakeFiles/Snake.dir/main.cpp.o CMakeFiles/Snake.dir/Board.cpp.o CMakeFiles/Snake.dir/Snake.cpp.o CMakeFiles/Snake.dir/GraSnake.cpp.o CMakeFiles/Snake.dir/RunningState.cpp.o CMakeFiles/Snake.dir/GameOverState.cpp.o CMakeFiles/Snake.dir/PausedState.cpp.o | /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/QtCore || Snake_autogen Snake_autogen_timestamp_deps
+  FLAGS = -DQT_QML_DEBUG -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mmacosx-version-min=26.1
   LINK_LIBRARIES = -Wl,-rpath,/Users/lukebobinski/Qt/6.9.3/macos/lib  /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework UniformTypeIdentifiers
   LINK_PATH = -F/Users/lukebobinski/Qt/6.9.3/macos/lib
   OBJECT_DIR = CMakeFiles/Snake.dir

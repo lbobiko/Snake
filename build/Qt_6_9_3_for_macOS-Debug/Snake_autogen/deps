@@ -129,9 +129,16 @@ Snake_autogen/timestamp: \
 	/Users/lukebobinski/qtrepos/Snake/Board.h \
 	/Users/lukebobinski/qtrepos/Snake/CMakeLists.txt \
 	/Users/lukebobinski/qtrepos/Snake/Direction.h \
+	/Users/lukebobinski/qtrepos/Snake/GameOverState.cpp \
+	/Users/lukebobinski/qtrepos/Snake/GameOverState.h \
 	/Users/lukebobinski/qtrepos/Snake/GraSnake.cpp \
 	/Users/lukebobinski/qtrepos/Snake/GraSnake.h \
+	/Users/lukebobinski/qtrepos/Snake/IGameState.h \
+	/Users/lukebobinski/qtrepos/Snake/PausedState.cpp \
+	/Users/lukebobinski/qtrepos/Snake/PausedState.h \
 	/Users/lukebobinski/qtrepos/Snake/Point.h \
+	/Users/lukebobinski/qtrepos/Snake/RunningState.cpp \
+	/Users/lukebobinski/qtrepos/Snake/RunningState.h \
 	/Users/lukebobinski/qtrepos/Snake/Snake.cpp \
 	/Users/lukebobinski/qtrepos/Snake/Snake.h \
 	/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake \

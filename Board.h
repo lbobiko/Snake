@@ -1,16 +1,15 @@
-#ifndef BOARD_H
-#define BOARD_H
 #pragma once
 #include "Point.h"
 
 class Board {
 public:
-    Board(int w, int h) : width(w), height(h) {}
+    Board(int width, int height);
+
     bool isInside(const Point& p) const;
+    int width() const;
+    int height() const;
 
 private:
-    int width;
-    int height;
+    int m_width;
+    int m_height;
 };
-
-#endif // BOARD_H
