@@ -3,6 +3,8 @@
 #include "Board.h"
 #include "Snake.h"
 #include "Direction.h"
+#include <vector>
+#include "IGameObserver.h"
 
 class IGameState;
 
@@ -32,6 +34,10 @@ public:
     void addScore(int delta);
     void newGame();
 
+    // Observer
+    void attachObserver(IGameObserver* obs);
+    void detachObserver(IGameObserver* obs);
+
 private:
     Board board;
     Snake snake;
@@ -40,4 +46,7 @@ private:
     int score;
 
     std::unique_ptr<IGameState> state;
+
+    std::vector<IGameObserver*> observers;
+    void notifyObservers();
 };

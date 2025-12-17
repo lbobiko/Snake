@@ -24,6 +24,8 @@ add_executable(Snake
   RunningState.h RunningState.cpp
   GameOverState.h GameOverState.cpp
   PausedState.h PausedState.cpp
+  IGameObserver.h
+  ConsoleView.h ConsoleView.cpp
 )
 target_link_libraries(Snake PRIVATE Qt${QT_VERSION_MAJOR}::Core)
 

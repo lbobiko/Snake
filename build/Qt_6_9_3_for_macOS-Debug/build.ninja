@@ -113,6 +113,14 @@ build CMakeFiles/Snake.dir/PausedState.cpp.o: CXX_COMPILER__Snake_unscanned_Debu
   OBJECT_DIR = CMakeFiles/Snake.dir
   OBJECT_FILE_DIR = CMakeFiles/Snake.dir
 
+build CMakeFiles/Snake.dir/ConsoleView.cpp.o: CXX_COMPILER__Snake_unscanned_Debug /Users/lukebobinski/qtrepos/Snake/ConsoleView.cpp || cmake_object_order_depends_target_Snake
+  DEFINES = -DQT_CORE_LIB
+  DEP_FILE = CMakeFiles/Snake.dir/ConsoleView.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mmacosx-version-min=26.1 -fcolor-diagnostics
+  INCLUDES = -I/Users/lukebobinski/qtrepos/Snake/build/Qt_6_9_3_for_macOS-Debug/Snake_autogen/include -isystem /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Headers -iframework /Users/lukebobinski/Qt/6.9.3/macos/lib -isystem /Users/lukebobinski/Qt/6.9.3/macos/mkspecs/macx-clang -isystem /Users/lukebobinski/Qt/6.9.3/macos/include
+  OBJECT_DIR = CMakeFiles/Snake.dir
+  OBJECT_FILE_DIR = CMakeFiles/Snake.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Snake
@@ -121,7 +129,7 @@ build CMakeFiles/Snake.dir/PausedState.cpp.o: CXX_COMPILER__Snake_unscanned_Debu
 #############################################
 # Link the executable Snake
 
-build Snake: CXX_EXECUTABLE_LINKER__Snake_Debug CMakeFiles/Snake.dir/Snake_autogen/mocs_compilation.cpp.o CMakeFiles/Snake.dir/main.cpp.o CMakeFiles/Snake.dir/Board.cpp.o CMakeFiles/Snake.dir/Snake.cpp.o CMakeFiles/Snake.dir/GraSnake.cpp.o CMakeFiles/Snake.dir/RunningState.cpp.o CMakeFiles/Snake.dir/GameOverState.cpp.o CMakeFiles/Snake.dir/PausedState.cpp.o | /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/QtCore || Snake_autogen Snake_autogen_timestamp_deps
+build Snake: CXX_EXECUTABLE_LINKER__Snake_Debug CMakeFiles/Snake.dir/Snake_autogen/mocs_compilation.cpp.o CMakeFiles/Snake.dir/main.cpp.o CMakeFiles/Snake.dir/Board.cpp.o CMakeFiles/Snake.dir/Snake.cpp.o CMakeFiles/Snake.dir/GraSnake.cpp.o CMakeFiles/Snake.dir/RunningState.cpp.o CMakeFiles/Snake.dir/GameOverState.cpp.o CMakeFiles/Snake.dir/PausedState.cpp.o CMakeFiles/Snake.dir/ConsoleView.cpp.o | /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/QtCore || Snake_autogen Snake_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -mmacosx-version-min=26.1
   LINK_LIBRARIES = -Wl,-rpath,/Users/lukebobinski/Qt/6.9.3/macos/lib  /Users/lukebobinski/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework UniformTypeIdentifiers
   LINK_PATH = -F/Users/lukebobinski/Qt/6.9.3/macos/lib

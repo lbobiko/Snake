@@ -12,7 +12,7 @@ const Point& Snake::head() const {
 }
 
 void Snake::move(Direction direction, bool grow) {
-    // 1. bazujemy na obecnej głowie
+    // 1. bazuje na obecnej głowie
     Point newHead = head();
 
     // 2. zmiana współrzędnych zależnie od kierunku
@@ -23,10 +23,10 @@ void Snake::move(Direction direction, bool grow) {
     case Direction::Right: newHead.x += 1; break;
     }
 
-    // 3. dodajemy nową głowę na początek
+    // 3. dodaje nową głowę na początek
     m_segments.push_front(newHead);
 
-    // 4. jeśli nie rośniemy, usuwamy ogon
+    // 4. jeśli nie rośnie, usuwa ogon
     if (!grow) {
         m_segments.pop_back();
     }
@@ -47,7 +47,7 @@ bool Snake::selfCollision() const {
     const Point& h = head();
     bool first = true;
     for (const auto& seg : m_segments) {
-        if (first) { first = false; continue; } // pomijamy głowę
+        if (first) { first = false; continue; } // pomija głowę
         if (seg.x == h.x && seg.y == h.y) {
             return true;
         }

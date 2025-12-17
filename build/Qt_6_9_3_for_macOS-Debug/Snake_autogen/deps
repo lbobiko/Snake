@@ -128,11 +128,14 @@ Snake_autogen/timestamp: \
 	/Users/lukebobinski/qtrepos/Snake/Board.cpp \
 	/Users/lukebobinski/qtrepos/Snake/Board.h \
 	/Users/lukebobinski/qtrepos/Snake/CMakeLists.txt \
+	/Users/lukebobinski/qtrepos/Snake/ConsoleView.cpp \
+	/Users/lukebobinski/qtrepos/Snake/ConsoleView.h \
 	/Users/lukebobinski/qtrepos/Snake/Direction.h \
 	/Users/lukebobinski/qtrepos/Snake/GameOverState.cpp \
 	/Users/lukebobinski/qtrepos/Snake/GameOverState.h \
 	/Users/lukebobinski/qtrepos/Snake/GraSnake.cpp \
 	/Users/lukebobinski/qtrepos/Snake/GraSnake.h \
+	/Users/lukebobinski/qtrepos/Snake/IGameObserver.h \
 	/Users/lukebobinski/qtrepos/Snake/IGameState.h \
 	/Users/lukebobinski/qtrepos/Snake/PausedState.cpp \
 	/Users/lukebobinski/qtrepos/Snake/PausedState.h \

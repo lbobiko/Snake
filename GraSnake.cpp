@@ -4,6 +4,7 @@
 #include "GameOverState.h"
 #include "PausedState.h"
 #include <cstdlib>
+#include <algorithm>
 
 
 static bool isOpposite(Direction a, Direction b) {
@@ -25,9 +26,9 @@ GraSnake::~GraSnake() = default;
 
 void GraSnake::tick() {
     state->tick(*this);
+    notifyObservers();
 }
 
-// ===== gettery =====
 
 const Board& GraSnake::getBoard() const { return board; }
 const Snake& GraSnake::getSnake() const { return snake; }
@@ -108,4 +109,21 @@ void GraSnake::newGame() {
 
 bool GraSnake::isInGameOver() const {
     return dynamic_cast<GameOverState*>(state.get()) != nullptr;
+}
+
+void GraSnake::attachObserver(IGameObserver* obs) {
+    observers.push_back(obs);
+}
+
+void GraSnake::detachObserver(IGameObserver* obs) {
+    observers.erase(
+        std::remove(observers.begin(), observers.end(), obs),
+        observers.end()
+        );
+}
+
+void GraSnake::notifyObservers() {
+    for (auto* obs : observers) {
+        obs->onGameUpdated(*this);
+    }
 }

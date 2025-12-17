@@ -3,5 +3,5 @@
 
 // W pauzie nie wykonujemy ruchu ani logiki
 void PausedState::tick(GraSnake&) {
-    // nic
+    // tu może być pusto
 }

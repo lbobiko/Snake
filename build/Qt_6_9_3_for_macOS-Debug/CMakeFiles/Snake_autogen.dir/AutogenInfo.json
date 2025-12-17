@@ -212,6 +212,12 @@
 			null
 		],
 		[
+			"/Users/lukebobinski/qtrepos/Snake/ConsoleView.h",
+			"MU",
+			"EWIEGA46WW/moc_ConsoleView.cpp",
+			null
+		],
+		[
 			"/Users/lukebobinski/qtrepos/Snake/Direction.h",
 			"MU",
 			"EWIEGA46WW/moc_Direction.cpp",
@@ -227,6 +233,12 @@
 			"/Users/lukebobinski/qtrepos/Snake/GraSnake.h",
 			"MU",
 			"EWIEGA46WW/moc_GraSnake.cpp",
+			null
+		],
+		[
+			"/Users/lukebobinski/qtrepos/Snake/IGameObserver.h",
+			"MU",
+			"EWIEGA46WW/moc_IGameObserver.cpp",
 			null
 		],
 		[
@@ -316,6 +328,7 @@
 	"SOURCES" : 
 	[
 		[ "/Users/lukebobinski/qtrepos/Snake/Board.cpp", "MU", null ],
+		[ "/Users/lukebobinski/qtrepos/Snake/ConsoleView.cpp", "MU", null ],
 		[ "/Users/lukebobinski/qtrepos/Snake/GameOverState.cpp", "MU", null ],
 		[ "/Users/lukebobinski/qtrepos/Snake/GraSnake.cpp", "MU", null ],
 		[ "/Users/lukebobinski/qtrepos/Snake/PausedState.cpp", "MU", null ],
